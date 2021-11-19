@@ -27,8 +27,8 @@ http_archive(
 # depend on @com_google_protobuf for protoc and proto runtimes.
 http_archive(
     name = "com_google_protobuf",
-    urls = ["https://codeload.github.com/protocolbuffers/protobuf/zip/master"],
-    strip_prefix = "protobuf-master",
+    urls = ["https://codeload.github.com/protocolbuffers/protobuf/zip/v3.19.0"],
+    strip_prefix = "protobuf-3.19.0",
     type = "zip",
 )
 
